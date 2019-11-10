@@ -1,0 +1,12 @@
+server: 
+  port: 8081 
+#日志
+logging: 
+  config: classpath:log4j2.xml
+#文件上传
+upload:
+  filePath: f://upload//
+spring: 
+  servlet: 
+    multipart: 
+      max-file-size: 10MB
